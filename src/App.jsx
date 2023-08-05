@@ -6,6 +6,7 @@ import Header from './Components/Header'
 import Slider from './Components/Slider'
 import GlobalApi from './Services/GlobalApi'
 import ProductionHouse from './Components/ProductionHouse'
+import GenreMovieList from './Components/GenreMovieList'
 
 function App() {
   
@@ -18,6 +19,8 @@ function App() {
       <Slider/>
 
       <ProductionHouse/>
+
+      <GenreMovieList/>
     </>
   )
 }
