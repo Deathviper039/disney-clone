@@ -10,10 +10,10 @@ import GenreMovieList from './Components/GenreMovieList'
 
 function App() {
   
-  const [count, setCount] = useState([])
+  const [count, setCount] = useState(0)
   
   return (
-    <>
+    <div>
       <Header/>
 
       <Slider/>
@@ -21,7 +21,7 @@ function App() {
       <ProductionHouse/>
 
       <GenreMovieList/>
-    </>
+    </div>
   )
 }
 
